@@ -31,7 +31,7 @@ export default {
 		let 测试路径 = env.PATH || '/';
 		// 确保测试路径以 '/' 开头
 		if (测试路径.charAt(0) !== '/') 测试路径 = '/' + 测试路径;
-		let 响应代码 = env.CODE || '200';
+		let 响应代码 = env.CODE || '404';
 		// 打印后端域名的数量和列表
 		console.log(`后端数量: ${后端域名.length}\n后端域名: ${后端域名}\n测试路径: ${测试路径}\n响应代码: ${响应代码}`);
 
@@ -86,7 +86,7 @@ export default {
 			}
 			// 如果所有后端都失效，抛出错误
 			return new Response('所有后端都不可用！', {
-				status: 404,
+				status: 502,
 				headers: { 'content-type': 'text/plain; charset=utf-8' },
 				});
 			//throw new Error('所有后端都不可用');
