@@ -21,6 +21,7 @@ export default {
 			'serv00-s16.0662.pp.ua',
 			'serv00-s16-1.0662.pp.ua',
 			'lade.0662.pp.ua',
+			'hax.0662.pp.ua',
 			'euserv.0662.pp.ua'];
 		
 		// 如果环境变量中有 HOST，则使用 ADD 函数获取新的后端域名列表
