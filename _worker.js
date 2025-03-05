@@ -20,7 +20,6 @@ export default {
 			'serv00-s15-1.0662.pp.ua',
 			'serv00-s16.0662.pp.ua',
 			'serv00-s16-1.0662.pp.ua',
-			'hax.0662.pp.ua',
 			'lade.0662.pp.ua',
 			'euserv.0662.pp.ua'];
 		
