@@ -8,7 +8,7 @@ export default {
 		let 后端域名 = [
 			'serv00-s8.0662.pp.ua',
 			'serv00-s10.0662.pp.ua',
-  		'serv00-s10-1.0662.pp.ua',
+			'serv00-s10-1.0662.pp.ua',
 			'serv00-s11.0662.pp.ua',
 			'serv00-s12.0662.pp.ua',
 			'serv00-s13.0662.pp.ua',
